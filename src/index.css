@@ -772,7 +772,7 @@ hr {
 }
 
 .st-sticky-header {
-  position: fixed;
+  position: absolute;
   z-index: 200;
   width: 100%;
   top: 0;
