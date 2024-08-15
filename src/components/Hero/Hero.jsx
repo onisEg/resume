@@ -6,7 +6,7 @@ export default function Hero() {
       <>
         <section
           className="st-hero st-style2 st-bg st-dynamic-bg"
-          data-src="/public/hero-bg-2.jpg"
+          data-src="/hero-bg-2.jpg"
         >
           <div className="container">
             <div className="st-hero-text">

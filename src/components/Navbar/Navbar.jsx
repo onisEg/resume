@@ -9,7 +9,7 @@ export default function Navbar() {
             <div className="st-main-header-in">
               <div className="st-main-header-left">
                 <a className="st-site-branding" href="index.html">
-                  <img src="/public/AnasLogo.png" alt="" />
+                  <img src="/AnasLogo.png" alt="" />
                 </a>
               </div>
               {/* <div className="st-main-header-right">

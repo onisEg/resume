@@ -10,7 +10,7 @@ export default function Portfolio() {
         <div className="container">
           <div className="row">
             <PortfolioItem
-              img="/public/portfolio/umsSignIn.jpg"
+              img="/portfolio/umsSignIn.jpg"
               projectTitle="User Management System !"
               projectLink="https://user-management-system-orpin.vercel.app/"
               projectGitLike="https://github.com/onisEg/userManagementSystem"
@@ -19,7 +19,7 @@ export default function Portfolio() {
               class3="bi bi-filetype-tsx"
             />
             <PortfolioItem
-              img="/public/portfolio/carRentHeader.jpg"
+              img="/portfolio/carRentHeader.jpg"
               projectTitle="RentCars !"
               projectLink="https://cars-mocha-phi.vercel.app/"
               projectGitLike="https://github.com/onisEg/cars"
@@ -28,7 +28,7 @@ export default function Portfolio() {
               class3="bi bi-filetype-jsx"
             />
             <PortfolioItem
-              img="/public/portfolio/eCommers.jpg"
+              img="/portfolio/eCommers.jpg"
               projectTitle="eCommerce !"
               projectLink="https://oniseg.github.io/eCommerce/"
               projectGitLike="https://github.com/onisEg/eCommerce"
@@ -38,7 +38,7 @@ export default function Portfolio() {
               class4="fa-brands fa-bootstrap"
             />
             <PortfolioItem
-              img="/public/portfolio/busicol.jpg"
+              img="/portfolio/busicol.jpg"
               projectTitle="busicol !"
               projectLink="https://oniseg.github.io/busicol/"
               projectGitLike="https://github.com/onisEg/busicol"
@@ -47,7 +47,7 @@ export default function Portfolio() {
               class3="fa-brands fa-bootstrap"
             />
             <PortfolioItem
-              img="/public/portfolio/pixels.jpg"
+              img="/portfolio/pixels.jpg"
               projectTitle="Pixels !"
               projectLink="https://oniseg.github.io/pixels/"
               projectGitLike="https://github.com/onisEg/pixels"
@@ -56,7 +56,7 @@ export default function Portfolio() {
               class3="fa-brands fa-bootstrap"
             />
             <PortfolioItem
-              img="/public/portfolio/family.jpg"
+              img="/portfolio/family.jpg"
               projectTitle="My Family !"
               projectLink="https://oniseg.github.io/MeFamily/"
               projectGitLike="https://github.com/onisEg/MeFamily"
@@ -65,7 +65,7 @@ export default function Portfolio() {
               class3="fa-brands fa-bootstrap"
             />
             <PortfolioItem
-              img="/public/portfolio/bmi.jpg"
+              img="/portfolio/bmi.jpg"
               projectTitle="BMI calculator !"
               projectLink="https://oniseg.github.io/BMI-calculator/"
               projectGitLike="https://github.com/onisEg/BMI-calculator"
@@ -75,7 +75,7 @@ export default function Portfolio() {
               class4="fa-brands fa-js"
             />
             <PortfolioItem
-              img="/public/portfolio/fabric.jpg"
+              img="/portfolio/fabric.jpg"
               projectTitle="Fabric Store !"
               projectLink="https://oniseg.github.io/FabricStore/"
               projectGitLike="https://github.com/onisEg/FabricStore"
@@ -85,7 +85,7 @@ export default function Portfolio() {
               class4="fa-brands fa-js"
             />
             <PortfolioItem
-              img="/public/portfolio/danial.jpg"
+              img="/portfolio/danial.jpg"
               projectTitle="Fabric Store !"
               projectLink="https://oniseg.github.io/danial/"
               projectGitLike="https://github.com/onisEg/danial"
