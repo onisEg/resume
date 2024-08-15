@@ -454,7 +454,7 @@ a:hover {
 }
 
 .st-bg {
-  background-image: url(/public/hero-bg-2.jpg);
+  background-image: url(/hero-bg-2.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
