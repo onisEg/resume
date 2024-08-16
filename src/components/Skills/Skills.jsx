@@ -10,35 +10,31 @@ export default function Skills() {
         <SecTitle title="Skills" subTitle="Skills" />
         <div className="container">
           <div className="row d-flex align-items-end">
+            <SkillItem skillTile="react" img="/logos/React.webp" />
             <SkillItem
-              skillTile="Bootstrap"
-              img="/logos/bootstrap.png"
+              skillTile="next.js"
+              img="/logos/nextjs.png"
+              style="filterInvert"
             />
-            <SkillItem skillTile="css" img="/logos/css3.png" />
+            <SkillItem skillTile="matiral ui" img="/logos/matiralmi.png" />
+            <SkillItem skillTile="typeScript" img="/logos/typescript-.webp" />
+            <SkillItem skillTile="Bootstrap" img="/logos/bootstrap.png" />
             <SkillItem skillTile="figma" img="/logos/Figma.png" />
             <SkillItem
               skillTile="github"
               img="/logos/github.png"
               style="filterInvert"
             />
-            <SkillItem skillTile="html5" img="/logos/html5.png" />
-            <SkillItem skillTile="javaScript" img="/logos/js.png" />
-            <SkillItem skillTile="json" img="/logos/json.png" />
             <SkillItem
-              skillTile="matiral ui"
-              img="/logos/matiralmi.png"
-            />
-            <SkillItem
-              skillTile="next.js"
-              img="/logos/nextjs.png"
+              skillTile="tailwind"
+              img="/logos/tailwind-css.svg"
               style="filterInvert"
             />
-            <SkillItem skillTile="react" img="/logos/React.webp" />
+            <SkillItem skillTile="json" img="/logos/json.png" />
+            <SkillItem skillTile="html5" img="/logos/html5.png" />
+            <SkillItem skillTile="javaScript" img="/logos/js.png" />
+            <SkillItem skillTile="css" img="/logos/css3.png" />
             <SkillItem skillTile="sass" img="/logos/sass.png" />
-            <SkillItem
-              skillTile="typeScript"
-              img="/logos/typescript-.webp"
-            />
             <SkillItem skillTile="vit.js" img="/logos/vitjs.png" />
           </div>
         </div>
