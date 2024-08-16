@@ -41,6 +41,14 @@ export default function Hero() {
                   <i className="fab fa-behance"></i>
                 </a>
               </div>
+              {/* <div className="st-social-link d-flex justify-content-center pt-3">
+                <a href="#" className="st-social-btn active">
+                  <span className="st-social-icon">
+                    <i class="fa-solid fa-download"></i>
+                  </span>
+                  <span className="st-icon-name">Download CV</span>
+                </a>
+              </div> */}
             </div>
           </div>
           <svg

@@ -5,7 +5,7 @@ import PortfolioItem from "../PortfolioItem/PortfolioItem";
 export default function Portfolio() {
   return (
     <>
-      <section id="portfolio  ">
+      <section id="portfolio " style={{ margin: "100px 0" }}>
         <SecTitle title="Portfolio" subTitle="Portfolio" />
         <div className="container">
           <div className="row">

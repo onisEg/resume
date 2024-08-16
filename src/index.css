@@ -2978,7 +2978,7 @@ canvas {
 .st-social-link .st-social-btn {
   border-radius: 50px;
   background-color: #070d1b;
-  border: 0.5px solid #3f4551;
+  border: 0.5px solid #fec544;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   overflow: hidden;
@@ -2988,6 +2988,9 @@ canvas {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  &:hover {
+    scale: 1.1;
+  }
 }
 
 .st-social-link .st-social-btn:not(:last-child) {
