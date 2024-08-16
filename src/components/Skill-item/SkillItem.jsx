@@ -12,7 +12,9 @@ export default function SkillItem(props) {
               alt={props.skillTile}
             />
           </div>
-          <p className={`text-capitalize pt-3 `}>{props.skillTile}</p>
+          <p style={{ fontSize: "10px" }} className={`text-capitalize pt-3 `}>
+            {props.skillTile}
+          </p>
         </div>
       </div>
     </>
