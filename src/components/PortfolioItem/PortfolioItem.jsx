@@ -29,6 +29,8 @@ export default function PortfolioItem(props) {
               <i className={`${props.class2} mx-2`}></i>
               <i className={`${props.class3} mx-2`}></i>
               <i className={`${props.class4} mx-2`}></i>
+              <i className={`${props.class5} mx-2`}></i>
+              <i className={`${props.class6} mx-2`}></i>
             </p>
           </div>
           <div className="d-flex justify-content-between align-items-center">
