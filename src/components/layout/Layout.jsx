@@ -5,6 +5,7 @@ import Skills from "../Skills/Skills";
 import Footer from "../Footer/Footer";
 import Portfolio from "../Portfolio/Portfolio";
 
+
 export default function Layout() {
   return (
     <>
