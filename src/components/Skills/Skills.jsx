@@ -36,6 +36,7 @@ export default function Skills() {
             <SkillItem skillTile="css" img="/logos/css3.png" />
             <SkillItem skillTile="sass" img="/logos/sass.png" />
             <SkillItem skillTile="vit.js" img="/logos/vitjs.png" />
+            <SkillItem skillTile="Redux" img="/logos/redux.png" />
           </div>
         </div>
       </section>
