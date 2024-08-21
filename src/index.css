@@ -3055,3 +3055,18 @@ canvas {
 .filterInvert {
   filter: invert(1);
 }
+
+/* =============================== */
+.appie-loader {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.appie-loader {
+  opacity: 0;
+}
+.appie-loader.active {
+  opacity: 100;
+}
