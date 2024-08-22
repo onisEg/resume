@@ -32,7 +32,7 @@ export default function Skills() {
             />
             <SkillItem skillTile="json" img="/logos/json.png" />
             <SkillItem skillTile="html5" img="/logos/html5.png" />
-            <SkillItem skillTile="javaScript" img="/logos/js.png" />
+            <SkillItem skillTile="javaScript" img="/logos/JavaScript.png" />
             <SkillItem skillTile="css" img="/logos/css3.png" />
             <SkillItem skillTile="sass" img="/logos/sass.png" />
             <SkillItem skillTile="vit.js" img="/logos/vitjs.png" />
