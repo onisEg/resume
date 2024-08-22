@@ -7,7 +7,7 @@ export default function Skills() {
     <>
       <section className="st-dark-bg my-5">
         <div className="st-height-b100 st-height-lg-b80"></div>
-        <SecTitle title="Skills" subTitle="Skills" />
+        <SecTitle title="Skills & Tools" subTitle="Skills & Tools" />
         <div className="container">
           <div className="row d-flex align-items-end">
             <SkillItem skillTile="react" img="/logos/React.webp" />
@@ -37,6 +37,9 @@ export default function Skills() {
             <SkillItem skillTile="sass" img="/logos/sass.png" />
             <SkillItem skillTile="vit.js" img="/logos/vitjs.png" />
             <SkillItem skillTile="Redux" img="/logos/redux.png" />
+            <SkillItem skillTile="Postman" img="/logos/postman.png" />
+            <SkillItem skillTile="VS code" img="/logos/vscode.png" />
+            <SkillItem skillTile="Slack" img="/logos/Slack.png" />
           </div>
         </div>
       </section>
