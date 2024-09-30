@@ -9,11 +9,12 @@ export default function PortfolioItem(props) {
             <div className="st-portfolio-item ">
               <a
                 href={props.projectLink}
-                className="st-portfolio st-zoom st-lightbox-item rounded shadow-lg"
+                className="st-portfolio  st-lightbox-item rounded shadow-lg"
+                target="_blank"
               >
-                <div className="st-portfolio-img st-zoom-in ">
+                <div className="st-portfolio-img" >
                   <img
-                    className="img-fluid "
+                    className="img-fluid rounded"
                     src={props.img}
                     alt={props.projectTitle}
                   />

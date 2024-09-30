@@ -10,7 +10,7 @@ export default function Portfolio() {
         <div className="container">
           <div className="row">
             <PortfolioItem
-              img="/public/portfolio/bookshop.jpeg"
+              img="/portfolio/bookshop.jpeg"
               projectTitle="Book Shop 📚"
               projectLink="https://bookshop-chi-six.vercel.app"
               projectGitLike="https://github.com/onisEg/bookshop"
@@ -30,7 +30,7 @@ export default function Portfolio() {
               class3="bi bi-filetype-tsx"
             />
             <PortfolioItem
-              img="/portfolio/carRent.jpg"
+              img="/public/portfolio/cars-mocha-phi-vercel-app-2024-09-30-11_33_44.png"
               projectTitle="RentCars 🚗"
               projectLink="https://cars-mocha-phi.vercel.app/"
               projectGitLike="https://github.com/onisEg/cars"
@@ -39,7 +39,7 @@ export default function Portfolio() {
               class3="bi bi-filetype-jsx"
             />
             <PortfolioItem
-              img="/portfolio/busicol.jpg"
+              img="/portfolio/busicol-2024-09-30-12_07_16.png"
               projectTitle="busicol !"
               projectLink="https://oniseg.github.io/busicol/"
               projectGitLike="https://github.com/onisEg/busicol"
@@ -48,7 +48,7 @@ export default function Portfolio() {
               class3="fa-brands fa-bootstrap"
             />
             <PortfolioItem
-              img="/portfolio/eCommers.jpg"
+              img="/portfolio/eCommerce-2024-09-30-12_09_52.png"
               projectTitle="eCommerce !"
               projectLink="https://oniseg.github.io/eCommerce/"
               projectGitLike="https://github.com/onisEg/eCommerce"
@@ -59,7 +59,7 @@ export default function Portfolio() {
             />
 
             <PortfolioItem
-              img="/portfolio/family.jpg"
+              img="/portfolio/MeFamily-2024-09-30-12_12_56.png"
               projectTitle="My Family !"
               projectLink="https://oniseg.github.io/MeFamily/"
               projectGitLike="https://github.com/onisEg/MeFamily"
