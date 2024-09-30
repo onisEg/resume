@@ -22,7 +22,7 @@ export default function Portfolio() {
             />
             <PortfolioItem
               img="/portfolio/ums.jpg"
-              projectTitle="User Management System !"
+              projectTitle="UMS !"
               projectLink="https://user-management-system-orpin.vercel.app/"
               projectGitLike="https://github.com/onisEg/userManagementSystem"
               class1="fa-brands fa-react "
