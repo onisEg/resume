@@ -10,9 +10,9 @@ export default function Portfolio() {
         <div className="container">
           <div className="row">
             <PortfolioItem
-              img="/portfolio/bookshop.jpeg"
+              img="/portfolio/bookshop-git-main-onisegs-projects-vercel-app-dashbord-books-2024-09-30-14_07_10.png"
               projectTitle="Book Shop 📚"
-              projectLink="https://bookshop-chi-six.vercel.app"
+              projectLink="https://bookshop-git-main-onisegs-projects.vercel.app/"
               projectGitLike="https://github.com/onisEg/bookshop"
               class1="fa-brands fa-react "
               class2="fa-brands fa-html5"
