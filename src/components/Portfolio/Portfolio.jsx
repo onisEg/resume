@@ -10,6 +10,17 @@ export default function Portfolio() {
         <div className="container">
           <div className="row">
             <PortfolioItem
+              img="/public/portfolio/bookshop.jpeg"
+              projectTitle="Book Shop 📚"
+              projectLink="https://bookshop-chi-six.vercel.app"
+              projectGitLike="https://github.com/onisEg/bookshop"
+              class1="fa-brands fa-react "
+              class2="fa-brands fa-html5"
+              class3="bi bi-filetype-tsx"
+              class4="fa-brands fa-stripe"
+              
+            />
+            <PortfolioItem
               img="/portfolio/ums.jpg"
               projectTitle="User Management System !"
               projectLink="https://user-management-system-orpin.vercel.app/"
@@ -20,7 +31,7 @@ export default function Portfolio() {
             />
             <PortfolioItem
               img="/portfolio/carRent.jpg"
-              projectTitle="RentCars !"
+              projectTitle="RentCars 🚗"
               projectLink="https://cars-mocha-phi.vercel.app/"
               projectGitLike="https://github.com/onisEg/cars"
               class1="fa-brands fa-react "
