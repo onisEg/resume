@@ -30,7 +30,7 @@ export default function Portfolio() {
               class3="bi bi-filetype-tsx"
             />
             <PortfolioItem
-              img="/public/portfolio/cars-mocha-phi-vercel-app-2024-09-30-11_33_44.png"
+              img="/portfolio/cars-mocha-phi-vercel-app-2024-09-30-11_33_44.png"
               projectTitle="RentCars 🚗"
               projectLink="https://cars-mocha-phi.vercel.app/"
               projectGitLike="https://github.com/onisEg/cars"
