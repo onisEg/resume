@@ -3,7 +3,7 @@ import React from "react";
 export default function SkillItem(props) {
   return (
     <>
-      <div className="col-2 col-md ">
+      <div className="col-2 col-md-1 ">
         <div className="d-flex flex-column align-items-center ">
           <div className=" d-flex align-items-center justify-content-center p-md-1 p-1">
             <img
@@ -12,7 +12,7 @@ export default function SkillItem(props) {
               alt={props.skillTile}
             />
           </div>
-          <p style={{ fontSize: "10px" }} className={`text-capitalize pt-3 `}>
+          <p style={{ fontSize: "10px" }} className={`text-capitalize pt-3  `}>
             {props.skillTile}
           </p>
         </div>

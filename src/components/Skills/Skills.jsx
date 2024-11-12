@@ -40,6 +40,7 @@ export default function Skills() {
             <SkillItem skillTile="Postman" img="/logos/postman.png" />
             <SkillItem skillTile="VS code" img="/logos/vscode.png" />
             <SkillItem skillTile="Slack" img="/logos/Slack.png" />
+            <SkillItem skillTile="Swagger" img="/logos/swagger.png" />
           </div>
         </div>
       </section>
