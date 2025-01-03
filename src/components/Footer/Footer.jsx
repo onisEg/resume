@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="container">
           <div className="st-copyright-wrap text-center">
             <div className="st-copyright-text">
-              © 2024. Designed by Anas. All right reserved.
+              © 2025. Designed by Anas. All right reserved.
             </div>
           </div>
         </div>
