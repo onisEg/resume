@@ -19,22 +19,36 @@ export default function Hero() {
                 interactive with web animations.
               </p>
               <div className="st-hero-social-links">
-                <a href="https://wa.me/+96879283498" className="st-social-btn">
+                <a
+                  target="_blank"
+                  href="https://wa.me/+34666281390"
+                  className="st-social-btn"
+                >
                   <i className="fab fa-whatsapp"></i>
                 </a>
-                <a href="tel:+96879283498" className="st-social-btn">
+                <a
+                  target="_blank"
+                  href="tel:+34666281390"
+                  className="st-social-btn"
+                >
                   <i className="fa-solid fa fa-phone"></i>
                 </a>
                 <a
+                  target="_blank"
                   href="https://www.linkedin.com/in/anaseg/"
                   className="st-social-btn"
                 >
                   <i className="fab fa-linkedin-in"></i>
                 </a>
-                <a href="https://github.com/onisEg" className="st-social-btn">
+                <a
+                  target="_blank"
+                  href="https://github.com/onisEg"
+                  className="st-social-btn"
+                >
                   <i className="fab fa-github"></i>
                 </a>
                 <a
+                  target="_blank"
                   href="https://www.behance.net/AnasEg"
                   className="st-social-btn"
                 >
@@ -43,7 +57,7 @@ export default function Hero() {
               </div>
               <div className="st-social-link d-flex justify-content-center pt-3">
                 <a
-                  href="/AnasCvFrontEndOM.pdf"
+                  href="/AnasCvfrontEndEs.pdf"
                   className="st-social-btn active"
                   download={true}
                   target="_blank"
