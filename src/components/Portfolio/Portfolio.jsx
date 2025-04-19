@@ -10,7 +10,7 @@ export default function Portfolio() {
         <div className="container">
           <div className="row">
             <PortfolioItem
-              img="/public/portfolio/image7.jpg"
+              img="/portfolio/image7.jpg"
               projectTitle="Food Recipe 🍇"
               projectLink="https://food-app-six-sepia.vercel.app"
               projectGitLike="https://github.com/onisEg/food_app"
