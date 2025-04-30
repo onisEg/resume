@@ -10,6 +10,16 @@ export default function Portfolio() {
         <div className="container">
           <div className="row">
             <PortfolioItem
+              img="/public/portfolio/contant.png"
+              projectTitle="Contact ➕"
+              projectLink="https://contacts-indol.vercel.app/"
+              projectGitLike="https://github.com/onisEg/contacts"
+              class1="fa-brands fa-react "
+              class2="fa-brands fa-html5"
+              class3="bi bi-filetype-tsx"
+              class4="fa-brands fa-stripe"
+            />
+            <PortfolioItem
               img="/portfolio/image7.jpg"
               projectTitle="Food Recipe 🍇"
               projectLink="https://food-app-six-sepia.vercel.app"
