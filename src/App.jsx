@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import Layout from "./components/layout/Layout";
 import Loader from "./components/Loader/Loader";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -22,6 +23,7 @@ function App() {
           <Layout />
         </div>
       )}
+      <SpeedInsights />
     </>
   );
 }
