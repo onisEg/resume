@@ -10,7 +10,7 @@ export default function Portfolio() {
         <div className="container">
           <div className="row">
             <PortfolioItem
-              img="/public/portfolio/contant.png"
+              img="/portfolio/contant.png"
               projectTitle="Contact ➕"
               projectLink="https://contacts-indol.vercel.app/"
               projectGitLike="https://github.com/onisEg/contacts"
