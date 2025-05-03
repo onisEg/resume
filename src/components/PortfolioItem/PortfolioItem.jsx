@@ -1,11 +1,9 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function PortfolioItem(props) {
-
   return (
     <>
-      <div className="col-lg-4 col-md-6 col-6 my-2">
+      <div className="col-lg-4 col-md-6 col-6 my-2" data-aos="zoom-in">
         <div className=" bg-light p-3 rounded">
           <div className="st-portfolio-single st-style1 st-lightgallery mb-3">
             <div className="st-portfolio-item ">
@@ -14,7 +12,16 @@ export default function PortfolioItem(props) {
                 className="st-portfolio  st-lightbox-item rounded shadow-lg"
                 target="_blank"
               >
-                <div className="st-portfolio-img" >
+                <div className="st-portfolio-img position-relative">
+                  {props.tag && (
+                    <span
+                      className={`badge position-absolute top-0 start-0 m-2 bg-${
+                        props.tagColor || "secondary"
+                      }`}
+                    >
+                      {props.tag}
+                    </span>
+                  )}
                   <img
                     className="img-fluid rounded"
                     src={props.img}
@@ -47,7 +54,6 @@ export default function PortfolioItem(props) {
                 Demo
               </a>
             </span>
-
             <a target="_blank" href={props.projectGitLike} className="">
               <i class="fa-brands fa-github fa-2x text-black"></i>
             </a>

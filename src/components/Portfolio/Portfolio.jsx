@@ -18,6 +18,8 @@ export default function Portfolio() {
               class2="fa-brands fa-html5"
               class3="bi bi-filetype-tsx"
               class4="fa-brands fa-stripe"
+              tag="Latest"
+              tagColor="success"
             />
             <PortfolioItem
               img="/portfolio/image7.jpg"
@@ -28,6 +30,8 @@ export default function Portfolio() {
               class2="fa-brands fa-html5"
               class3="bi bi-filetype-tsx"
               class4="fa-brands fa-stripe"
+              tag="working on"
+              tagColor="warning"
             />
             <PortfolioItem
               img="/portfolio/bookshop-git-main-onisegs-projects-vercel-app-dashbord-books-2024-09-30-14_07_10.png"
