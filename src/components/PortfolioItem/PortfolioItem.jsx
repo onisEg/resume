@@ -3,7 +3,11 @@ import React from "react";
 export default function PortfolioItem(props) {
   return (
     <>
-      <div className="col-lg-4 col-md-6 col-6 my-2" data-aos="zoom-in">
+      <div
+        className="col-lg-4 col-md-6 col-6 my-2"
+        data-aos="zoom-in"
+        data-aos-delay="200"
+      >
         <div className=" bg-light p-3 rounded">
           <div className="st-portfolio-single st-style1 st-lightgallery mb-3">
             <div className="st-portfolio-item ">
