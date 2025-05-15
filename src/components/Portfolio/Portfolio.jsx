@@ -24,7 +24,7 @@ export default function Portfolio() {
             <PortfolioItem
               img="/portfolio/image7.jpg"
               projectTitle="Food Recipe 🍇"
-              projectLink="https://food-app-git-update-v2-onisegs-projects.vercel.app/"
+              projectLink="https://food-app-six-sepia.vercel.app"
               projectGitLike="https://github.com/onisEg/food_app"
               class1="fa-brands fa-react "
               class2="fa-brands fa-html5"
