@@ -39,12 +39,9 @@ export default function PortfolioItem(props) {
             <h5 className="text-dark">{props.projectTitle}</h5>
             <p className="text-muted">
               <span>Languages and Tools : </span>
-              <i className={`${props.class1} mx-2`}></i>
-              <i className={`${props.class2} mx-2`}></i>
-              <i className={`${props.class3} mx-2`}></i>
-              <i className={`${props.class4} mx-2`}></i>
-              <i className={`${props.class5} mx-2`}></i>
-              <i className={`${props.class6} mx-2`}></i>
+              {props.classes?.map((cls, i) => (
+                <i key={i} className={`${cls} mx-2`}></i>
+              ))}
             </p>
           </div>
           <div className="d-flex justify-content-between align-items-center">
