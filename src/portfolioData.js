@@ -1,5 +1,19 @@
 export const portfolioData = [
     {
+        img: "/public/portfolio/pmsProjects.svg",
+        projectTitle: "Projecte Management System PMS",
+        projectLink: "https://github.com/onisEg/project-management-system",
+        projectGitLike: "https://github.com/onisEg/project-management-system",
+        classes: [
+            "fa-brands fa-react",
+            "fa-brands fa-html5",
+            "bi bi-filetype-tsx",
+            "fa-brands fa-stripe"
+        ],
+        tag: "Latest NEW !",
+        tagColor: "success"
+    },
+    {
         img: "/portfolio/image7.jpg",
         projectTitle: "Food Recipe 🍇",
         projectLink: "https://food-app-six-sepia.vercel.app",
@@ -11,7 +25,7 @@ export const portfolioData = [
             "fa-brands fa-stripe"
         ],
         tag: "Latest NEW !",
-        tagColor: "success"
+        tagColor: "warning"
     },
     {
         img: "/portfolio/contant.png",
@@ -141,4 +155,3 @@ export const portfolioData = [
         ]
     }
 ];
-  
