@@ -1,6 +1,6 @@
 export const portfolioData = [
     {
-        img: "/public/portfolio/pmsProjects.svg",
+        img: "/portfolio/pmsProjects.svg",
         projectTitle: "Projecte Management System PMS",
         projectLink: "https://github.com/onisEg/project-management-system",
         projectGitLike: "https://github.com/onisEg/project-management-system",
