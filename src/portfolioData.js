@@ -1,6 +1,6 @@
 export const portfolioData = [
     {
-        img: "/portfolio/hotelBooking.svg",
+        img: "/portfolio/hotelBooking.jpg",
         projectTitle: "Hotel Booking 🏨",
         projectLink: "https://booking-iota-one.vercel.app/",
         projectGitLike: "https://github.com/DevsquadEg/booking",
