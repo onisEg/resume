@@ -1,5 +1,19 @@
 export const portfolioData = [
     {
+        img: "/portfolio/hotelBooking.svg",
+        projectTitle: "Hotel Booking 🏨",
+        projectLink: "https://booking-iota-one.vercel.app/",
+        projectGitLike: "https://github.com/DevsquadEg/booking",
+        classes: [
+            "fa-brands fa-react",
+            "fa-brands fa-html5",
+            "bi bi-filetype-tsx",
+            "fa-brands fa-stripe"
+        ],
+        tag: "Latest NEW !",
+        tagColor: "success"
+    },
+    {
         img: "/portfolio/pmsProjects.svg",
         projectTitle: "Projecte Management System PMS",
         projectLink: "https://project-management-system-y5bw.vercel.app/",
@@ -10,8 +24,8 @@ export const portfolioData = [
             "bi bi-filetype-tsx",
             "fa-brands fa-stripe"
         ],
-        tag: "Latest NEW !",
-        tagColor: "success"
+        tag: "Latest !",
+        tagColor: "warning"
     },
     {
         img: "/portfolio/image7.jpg",
@@ -24,8 +38,8 @@ export const portfolioData = [
             "bi bi-filetype-tsx",
             "fa-brands fa-stripe"
         ],
-        tag: "Latest NEW !",
-        tagColor: "warning"
+        tag: "NEW !",
+        tagColor: "primary"
     },
     {
         img: "/portfolio/contant.png",
