@@ -2,7 +2,7 @@ export const portfolioData = [
     {
         img: "/portfolio/pmsProjects.svg",
         projectTitle: "Projecte Management System PMS",
-        projectLink: "https://github.com/onisEg/project-management-system",
+        projectLink: "https://project-management-system-y5bw.vercel.app/",
         projectGitLike: "https://github.com/onisEg/project-management-system",
         classes: [
             "fa-brands fa-react",
