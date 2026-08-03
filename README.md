@@ -1,4 +1,4 @@
-# https://resume-theta-steel.vercel.app/
+# [https://resume-theta-steel.vercel.app/](https://resume-git-main-onisegs-projects.vercel.app/)
 
 # React + Vite
 
