@@ -1,40 +1,34 @@
-import { useEffect, useState } from "react";
-import "./App.css";
-import Layout from "./components/layout/Layout";
-import Loader from "./components/Loader/Loader";
+import { useEffect } from "react";
 import AOS from "aos";
-import "aos/dist/aos.css";
 import { SpeedInsights } from "@vercel/speed-insights/react";
 
-function App() {
-  const [loading, setLoading] = useState(true);
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Experience from "./components/Experience";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+
+export default function App() {
   useEffect(() => {
-    setTimeout(() => {
-      setLoading(false);
-      
-       AOS.init({
-         duration: 1000, // المدة بالمللي ثانية
-         once: true, // الأنيميشن يشتغل مرة واحدة بس
-       });
-    }, 1000);
-
-
+    AOS.init({ duration: 700, once: true, disable: "phone" });
   }, []);
 
   return (
     <>
-      {loading ? (
-        <div className={`appie-loader ${loading ? "active" : ""}`}>
-          <Loader />
-        </div>
-      ) : (
-        <div className={`appie-visible ${loading === false ? "active" : ""}`}>
-          <Layout />
-        </div>
-      )}
+      <Navbar />
+      <main>
+        <Hero />
+        <About />
+        <Experience />
+        <Projects />
+        <Skills />
+        <Contact />
+      </main>
+      <Footer />
       <SpeedInsights />
     </>
   );
 }
-
-export default App;
