@@ -24,7 +24,7 @@ export const ui = {
       badge: "Open to frontend roles · Barcelona & remote",
       hello: "Hi, I'm",
       role: "Frontend Developer · React & TypeScript",
-      text: "I build responsive web apps with React and TypeScript, from authentication flows and admin dashboards to Stripe checkouts. Based in Barcelona and currently specializing in React & Angular at IT Academy (Barcelona Activa).",
+      text: "I build responsive web apps with React and TypeScript, from authentication flows and admin dashboards to Stripe checkouts. Based in Barcelona and currently specializing in React at IT Academy (Barcelona Activa).",
       ctaProjects: "View projects",
       ctaCv: "Download CV",
       ctaContact: "Contact me",
@@ -34,12 +34,12 @@ export const ui = {
       paragraphs: [
         "I'm a frontend developer who started in UI/UX design, so I care about how an interface feels, not only whether it works.",
         "I've built complete client-side applications on top of real REST APIs: JWT authentication, role-based dashboards, CRUD screens, charts, drag-and-drop boards and payment flows. Alongside that, I do freelance work on e-commerce stores (Shopify, PrestaShop), which keeps me close to real business needs.",
-        "I work comfortably in multicultural teams and speak Arabic, English, Turkish and Spanish.",
+        "I work comfortably in multicultural teams and speak Arabic, English and Spanish.",
       ],
       facts: [
         { label: "Location", value: "Barcelona, Spain" },
-        { label: "Focus", value: "React · TypeScript · Angular (learning)" },
-        { label: "Languages", value: "Arabic (native) · English · Turkish · Spanish (A2, improving)" },
+        { label: "Focus", value: "React · TypeScript · UI/UX" },
+        { label: "Languages", value: "Arabic (native) · English · Spanish (A2, improving)" },
         { label: "Status", value: "Available for work" },
       ],
     },
@@ -69,7 +69,7 @@ export const ui = {
       badge: "Disponible para puestos frontend · Barcelona y remoto",
       hello: "Hola, soy",
       role: "Desarrollador Frontend · React y TypeScript",
-      text: "Desarrollo aplicaciones web responsive con React y TypeScript, desde flujos de autenticación y paneles de administración hasta pagos con Stripe. Vivo en Barcelona y actualmente me especializo en React y Angular en IT Academy (Barcelona Activa).",
+      text: "Desarrollo aplicaciones web responsive con React y TypeScript, desde flujos de autenticación y paneles de administración hasta pagos con Stripe. Vivo en Barcelona y actualmente me especializo en React en IT Academy (Barcelona Activa).",
       ctaProjects: "Ver proyectos",
       ctaCv: "Descargar CV",
       ctaContact: "Contactar",
@@ -79,12 +79,12 @@ export const ui = {
       paragraphs: [
         "Soy desarrollador frontend y empecé en el diseño UI/UX, así que me importa cómo se siente una interfaz, no solo que funcione.",
         "He creado aplicaciones completas conectadas a APIs REST reales: autenticación con JWT, paneles según rol, pantallas CRUD, gráficos, tableros drag-and-drop y flujos de pago. Además, trabajo como freelance en tiendas online (Shopify, PrestaShop), lo que me mantiene cerca de las necesidades reales de negocio.",
-        "Trabajo cómodamente en equipos multiculturales y hablo árabe, inglés, turco y español.",
+        "Trabajo cómodamente en equipos multiculturales y hablo árabe, inglés y español.",
       ],
       facts: [
         { label: "Ubicación", value: "Barcelona, España" },
-        { label: "Enfoque", value: "React · TypeScript · Angular (aprendiendo)" },
-        { label: "Idiomas", value: "Árabe (nativo) · Inglés · Turco · Español (A2, mejorando)" },
+        { label: "Enfoque", value: "React · TypeScript · UI/UX" },
+        { label: "Idiomas", value: "Árabe (nativo) · Inglés · Español (A2, mejorando)" },
         { label: "Estado", value: "Disponible para trabajar" },
       ],
     },
@@ -191,7 +191,7 @@ export const experience = [
 
 export const education = [
   {
-    title: { en: "Frontend Specialization: React & Angular", es: "Especialización Frontend: React y Angular" },
+    title: { en: "Frontend Specialization: React", es: "Especialización Frontend: React" },
     place: "IT Academy · Barcelona Activa",
     period: { en: "2026 · In progress", es: "2026 · En curso" },
   },
@@ -343,9 +343,5 @@ export const skillGroups = [
   {
     title: { en: "CMS & e-commerce", es: "CMS y e-commerce" },
     items: [{ name: "Shopify" }, { name: "PrestaShop" }, { name: "WordPress" }],
-  },
-  {
-    title: { en: "Currently learning", es: "Aprendiendo ahora" },
-    items: [{ name: "Angular" }],
   },
 ];
