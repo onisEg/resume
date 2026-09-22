@@ -1,13 +1,12 @@
 import { useLang } from "../i18n/LanguageContext";
 import { featuredProjects, earlierProjects } from "../data/content";
 import SectionTitle from "./SectionTitle";
+import ScrollPreview from "./ScrollPreview";
 
 function FeaturedCard({ p, t, lang, reverse }) {
   return (
     <article className={`project ${reverse ? "project--reverse" : ""}`} data-aos="fade-up">
-      <a href={p.demo} target="_blank" rel="noopener noreferrer" className="project__img">
-        <img src={p.img} alt={`${p.title} screenshot`} loading="lazy" width="960" height="600" />
-      </a>
+      <ScrollPreview src={p.img} alt={`${p.title} – full page preview`} href={p.demo} className="project__img" />
       <div className="project__body">
         <h3>
           {p.title}
@@ -53,9 +52,7 @@ export default function Projects() {
             {earlierProjects.map((p) => (
               <div key={p.title} className="col-6 col-md-4" data-aos="fade-up">
                 <div className="mini">
-                  <a href={p.demo} target="_blank" rel="noopener noreferrer">
-                    <img src={p.img} alt={`${p.title} screenshot`} loading="lazy" width="960" height="600" />
-                  </a>
+                  <ScrollPreview src={p.img} alt={`${p.title} – full page preview`} href={p.demo} className="mini__img" />
                   <div className="mini__body">
                     <strong>{p.title}</strong>
                     <small>{p.stack}</small>
