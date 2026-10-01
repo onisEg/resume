@@ -47,6 +47,7 @@ export default function Experience() {
                   <strong>{ed.title[lang]}</strong>
                   <span>{ed.place}</span>
                   <small>{ed.period[lang]}</small>
+                  {ed.note && <small className="edu__note">{ed.note[lang]}</small>}
                 </li>
               ))}
             </ul>

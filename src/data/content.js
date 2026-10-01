@@ -191,14 +191,13 @@ export const experience = [
 
 export const education = [
   {
-    title: { en: "Frontend Specialization: React", es: "Especialización Frontend: React" },
+    title: { en: "Web Development Course", es: "Curso de Desarrollo Web" },
     place: "IT Academy · Barcelona Activa",
-    period: { en: "2026 · In progress", es: "2026 · En curso" },
-  },
-  {
-    title: { en: "JavaScript Fundamentals", es: "Fundamentos de JavaScript" },
-    place: "IT Academy · Barcelona Activa",
-    period: { en: "2026", es: "2026" },
+    period: { en: "Apr 2026 – Jan 2027 · In progress", es: "abr. 2026 – ene. 2027 · En curso" },
+    note: {
+      en: "JavaScript fundamentals and frontend specialization in React.",
+      es: "Fundamentos de JavaScript y especialización frontend en React.",
+    },
   },
   {
     title: { en: "Information Systems", es: "Sistemas de Información" },
