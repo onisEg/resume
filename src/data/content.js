@@ -34,12 +34,12 @@ export const ui = {
       paragraphs: [
         "I'm a frontend developer who started in UI/UX design, so I care about how an interface feels, not only whether it works.",
         "I've built complete client-side applications on top of real REST APIs: JWT authentication, role-based dashboards, CRUD screens, charts, drag-and-drop boards and payment flows. Alongside that, I do freelance work on e-commerce stores (Shopify, PrestaShop), which keeps me close to real business needs.",
-        "I work comfortably in multicultural teams and speak Arabic, English and Spanish.",
+        "I work comfortably in multicultural teams and speak English, Spanish and Arabic.",
       ],
       facts: [
         { label: "Location", value: "Barcelona, Spain" },
-        { label: "Focus", value: "React · TypeScript · UI/UX" },
-        { label: "Languages", value: "Arabic (native) · English · Spanish (A2, improving)" },
+        { label: "Focus", value: "Web Developer" },
+        { label: "Languages", value: "English (B1) · Spanish (A2) · Arabic (native)" },
         { label: "Status", value: "Available for work" },
       ],
     },
@@ -79,12 +79,12 @@ export const ui = {
       paragraphs: [
         "Soy desarrollador frontend y empecé en el diseño UI/UX, así que me importa cómo se siente una interfaz, no solo que funcione.",
         "He creado aplicaciones completas conectadas a APIs REST reales: autenticación con JWT, paneles según rol, pantallas CRUD, gráficos, tableros drag-and-drop y flujos de pago. Además, trabajo como freelance en tiendas online (Shopify, PrestaShop), lo que me mantiene cerca de las necesidades reales de negocio.",
-        "Trabajo cómodamente en equipos multiculturales y hablo árabe, inglés y español.",
+        "Trabajo cómodamente en equipos multiculturales y hablo inglés, español y árabe.",
       ],
       facts: [
         { label: "Ubicación", value: "Barcelona, España" },
-        { label: "Enfoque", value: "React · TypeScript · UI/UX" },
-        { label: "Idiomas", value: "Árabe (nativo) · Inglés · Español (A2, mejorando)" },
+        { label: "Enfoque", value: "Desarrollador web" },
+        { label: "Idiomas", value: "Inglés (B1) · Español (A2) · Árabe (nativo)" },
         { label: "Estado", value: "Disponible para trabajar" },
       ],
     },
