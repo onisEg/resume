@@ -2,7 +2,7 @@ import { useLang } from "../i18n/LanguageContext";
 import { profile } from "../data/content";
 
 export default function Hero() {
-  const { t } = useLang();
+  const { lang, t } = useLang();
   const h = t.hero;
 
   return (
@@ -21,7 +21,7 @@ export default function Hero() {
           <a href="#projects" className="btn btn--primary">
             {h.ctaProjects}
           </a>
-          <a href={profile.cv} className="btn btn--ghost" download>
+          <a href={profile.cv[lang]} className="btn btn--ghost" target="_blank" rel="noopener noreferrer">
             <i className="fa-solid fa-download" /> {h.ctaCv}
           </a>
           <a href="#contact" className="btn btn--ghost">
