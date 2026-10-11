@@ -27,7 +27,7 @@ src/
 public/
 ├── projects/                # optimized WebP screenshots
 ├── certifications/          # certificate files
-└── AnasCvfrontEndEs.pdf     # downloadable CV
+└── cv/                      # downloadable CV PDFs (EN / ES)
 ```
 
 To add a project, job or skill, edit **only** `src/data/content.js`.
