@@ -192,6 +192,36 @@ export const experience = [
       ],
     },
   },
+  {
+    role: { en: "Internship Trainee", es: "Becario en prácticas" },
+    company: "Kal-Bunyan Al-Marsous",
+    start: { en: "Apr 2022", es: "abr. 2022" },
+    end: { en: "Oct 2022", es: "oct. 2022" },
+    points: {
+      en: ["Frontend training focused on JavaScript and CSS."],
+      es: ["Formación frontend centrada en JavaScript y CSS."],
+    },
+  },
+  {
+    role: { en: "Designer and Developer", es: "Diseñador y desarrollador" },
+    company: "Gorgov Digital Advertising Agency",
+    start: { en: "Jul 2019", es: "jul. 2019" },
+    end: { en: "Aug 2021", es: "ago. 2021" },
+    points: {
+      en: ["Web development and graphic design (Adobe Photoshop) for agency clients."],
+      es: ["Desarrollo web y diseño gráfico (Adobe Photoshop) para clientes de la agencia."],
+    },
+  },
+  {
+    role: { en: "Frontend Developer", es: "Desarrollador Frontend" },
+    company: "Tech Village Egypt",
+    start: { en: "Aug 2018", es: "ago. 2018" },
+    end: { en: "Nov 2018", es: "nov. 2018" },
+    points: {
+      en: ["Built website layouts with HTML, CSS and Bootstrap."],
+      es: ["Maqueté sitios web con HTML, CSS y Bootstrap."],
+    },
+  },
 ];
 
 export const education = [
