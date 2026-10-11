@@ -8,11 +8,12 @@ export const profile = {
   email: "anasdesigneruiux@gmail.com",
   phone: "+34 666 28 13 90",
   phoneHref: "+34666281390",
-  // CV PDFs hosted on Google Drive (direct download). The button picks the one
-  // matching the current site language.
+  // CV PDFs served from public/cv (direct download, no Google login needed).
+  // The button picks the one matching the current site language.
+  // To update the CV, replace the PDF in public/cv keeping the same file name.
   cv: {
-    en: "https://drive.google.com/uc?export=download&id=1O7WXLYOvvJ1jLM8TBl8lqGdoHtBGuoG9",
-    es: "https://drive.google.com/uc?export=download&id=1jJXlyYb09PIE8odER9F1rOdphnggggIX",
+    en: "/cv/Anas_Alnagar_Frontend_Developer_CV_EN.pdf",
+    es: "/cv/Anas_Alnagar_Desarrollador_Frontend_CV_ES.pdf",
   },
   social: {
     linkedin: "https://www.linkedin.com/in/anaseg/",
