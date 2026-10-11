@@ -136,9 +136,9 @@ export const experience = [
   },
   {
     role: { en: "Frontend Developer", es: "Desarrollador Frontend" },
-    company: "FITS Lab Dev",
+    company: "FITS Lab Dev · Remote",
     start: { en: "Oct 2024", es: "oct. 2024" },
-    end: null,
+    end: { en: "May 2025", es: "may. 2025" },
     points: {
       en: [
         "Guided and supported a team of developers to deliver project goals.",
@@ -168,9 +168,9 @@ export const experience = [
   },
   {
     role: { en: "UI/UX Designer", es: "Diseñador UI/UX" },
-    company: "Smart Developer Company",
+    company: "Smart Developer for Programming & Design",
     start: { en: "Feb 2024", es: "feb. 2024" },
-    end: null,
+    end: { en: "Oct 2024", es: "oct. 2024" },
     points: {
       en: ["Designed interfaces for government-service and product platforms."],
       es: ["Diseñé interfaces para plataformas de servicios públicos y de producto."],
@@ -178,7 +178,7 @@ export const experience = [
   },
   {
     role: { en: "UI/UX Design Intern", es: "Diseñador UI/UX en prácticas" },
-    company: "Route",
+    company: "Route · Remote",
     start: { en: "Oct 2023", es: "oct. 2023" },
     end: { en: "Jan 2024", es: "ene. 2024" },
     points: {
