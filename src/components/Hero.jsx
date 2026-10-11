@@ -21,8 +21,8 @@ export default function Hero() {
           <a href="#projects" className="btn btn--primary">
             {h.ctaProjects}
           </a>
-          <a href={profile.cv[lang]} className="btn btn--ghost" download={profile.cv[lang].split("/").pop()}>
-            <i className="fa-solid fa-download" /> {h.ctaCv}
+          <a href={profile.cv[lang]} className="btn btn--ghost" target="_blank" rel="noopener noreferrer">
+            <i className="fa-solid fa-file-lines" /> {h.ctaCv}
           </a>
           <a href="#contact" className="btn btn--ghost">
             {h.ctaContact}

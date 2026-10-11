@@ -8,7 +8,8 @@ export const profile = {
   email: "anasdesigneruiux@gmail.com",
   phone: "+34 666 28 13 90",
   phoneHref: "+34666281390",
-  // CV PDFs served from public/cv (direct download, no Google login needed).
+  // CV PDFs served from public/cv. The button opens the PDF in a new tab
+  // (the browser's PDF viewer has its own download button).
   // The button picks the one matching the current site language.
   // To update the CV, replace the PDF in public/cv keeping the same file name.
   cv: {
@@ -32,7 +33,7 @@ export const ui = {
       role: "Frontend Developer · React & TypeScript",
       text: "I build responsive web apps with React and TypeScript, from authentication flows and admin dashboards to Stripe checkouts. Based in Barcelona and currently specializing in React at IT Academy (Barcelona Activa).",
       ctaProjects: "View projects",
-      ctaCv: "Download CV",
+      ctaCv: "View CV",
       ctaContact: "Contact me",
     },
     about: {
@@ -77,7 +78,7 @@ export const ui = {
       role: "Desarrollador Frontend · React y TypeScript",
       text: "Desarrollo aplicaciones web responsive con React y TypeScript, desde flujos de autenticación y paneles de administración hasta pagos con Stripe. Vivo en Barcelona y actualmente me especializo en React en IT Academy (Barcelona Activa).",
       ctaProjects: "Ver proyectos",
-      ctaCv: "Descargar CV",
+      ctaCv: "Ver CV",
       ctaContact: "Contactar",
     },
     about: {
