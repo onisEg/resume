@@ -5,7 +5,7 @@ Personal portfolio & CV site — **[anascv.com](https://www.anascv.com/)**
 ![Portfolio screenshot](public/screenshot.webp)
 
 Web developer (React & TypeScript) based in Barcelona, with a background in UI/UX design.
-Currently taking the Web Development Course at IT Academy · Barcelona Activa (Apr 2026 – Jan 2027).
+Currently taking the Web Development Course at IT Academy · Barcelona Activa (Apr 2026 – Mar 2027).
 The site presents my experience, featured projects (each with live demo + source code), skills and contact details, in **English and Spanish**.
 
 ## Tech stack

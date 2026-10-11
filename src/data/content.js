@@ -228,7 +228,7 @@ export const education = [
   {
     title: { en: "Web Development Course", es: "Curso de Desarrollo Web" },
     place: "IT Academy · Barcelona Activa",
-    period: { en: "Apr 2026 – Jan 2027 · In progress", es: "abr. 2026 – ene. 2027 · En curso" },
+    period: { en: "Apr 2026 – Mar 2027 · In progress", es: "abr. 2026 – mar. 2027 · En curso" },
     note: {
       en: "JavaScript fundamentals and frontend specialization in React.",
       es: "Fundamentos de JavaScript y especialización frontend en React.",
