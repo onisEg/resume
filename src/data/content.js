@@ -136,9 +136,9 @@ export const experience = [
   },
   {
     role: { en: "Frontend Developer", es: "Desarrollador Frontend" },
-    company: "FITS Lab Dev",
+    company: "FITS Lab Dev · Remote",
     start: { en: "Oct 2024", es: "oct. 2024" },
-    end: null,
+    end: { en: "May 2025", es: "may. 2025" },
     points: {
       en: [
         "Guided and supported a team of developers to deliver project goals.",
@@ -168,9 +168,9 @@ export const experience = [
   },
   {
     role: { en: "UI/UX Designer", es: "Diseñador UI/UX" },
-    company: "Smart Developer Company",
+    company: "Smart Developer for Programming & Design",
     start: { en: "Feb 2024", es: "feb. 2024" },
-    end: null,
+    end: { en: "Oct 2024", es: "oct. 2024" },
     points: {
       en: ["Designed interfaces for government-service and product platforms."],
       es: ["Diseñé interfaces para plataformas de servicios públicos y de producto."],
@@ -178,7 +178,7 @@ export const experience = [
   },
   {
     role: { en: "UI/UX Design Intern", es: "Diseñador UI/UX en prácticas" },
-    company: "Route",
+    company: "Route · Remote",
     start: { en: "Oct 2023", es: "oct. 2023" },
     end: { en: "Jan 2024", es: "ene. 2024" },
     points: {
@@ -192,13 +192,43 @@ export const experience = [
       ],
     },
   },
+  {
+    role: { en: "Internship Trainee", es: "Becario en prácticas" },
+    company: "Kal-Bunyan Al-Marsous",
+    start: { en: "Apr 2022", es: "abr. 2022" },
+    end: { en: "Oct 2022", es: "oct. 2022" },
+    points: {
+      en: ["Frontend training focused on JavaScript and CSS."],
+      es: ["Formación frontend centrada en JavaScript y CSS."],
+    },
+  },
+  {
+    role: { en: "Designer and Developer", es: "Diseñador y desarrollador" },
+    company: "Gorgov Digital Advertising Agency",
+    start: { en: "Jul 2019", es: "jul. 2019" },
+    end: { en: "Aug 2021", es: "ago. 2021" },
+    points: {
+      en: ["Web development and graphic design (Adobe Photoshop) for agency clients."],
+      es: ["Desarrollo web y diseño gráfico (Adobe Photoshop) para clientes de la agencia."],
+    },
+  },
+  {
+    role: { en: "Frontend Developer", es: "Desarrollador Frontend" },
+    company: "Tech Village Egypt",
+    start: { en: "Aug 2018", es: "ago. 2018" },
+    end: { en: "Nov 2018", es: "nov. 2018" },
+    points: {
+      en: ["Built website layouts with HTML, CSS and Bootstrap."],
+      es: ["Maqueté sitios web con HTML, CSS y Bootstrap."],
+    },
+  },
 ];
 
 export const education = [
   {
     title: { en: "Web Development Course", es: "Curso de Desarrollo Web" },
     place: "IT Academy · Barcelona Activa",
-    period: { en: "Apr 2026 – Jan 2027 · In progress", es: "abr. 2026 – ene. 2027 · En curso" },
+    period: { en: "Apr 2026 – Mar 2027 · In progress", es: "abr. 2026 – mar. 2027 · En curso" },
     note: {
       en: "JavaScript fundamentals and frontend specialization in React.",
       es: "Fundamentos de JavaScript y especialización frontend en React.",
