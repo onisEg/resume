@@ -154,7 +154,7 @@ export const experience = [
     role: { en: "Frontend Developer", es: "Desarrollador Frontend" },
     company: "Upskilling Academy",
     start: { en: "May 2024", es: "may. 2024" },
-    end: null,
+    end: { en: "Oct 2024", es: "oct. 2024" },
     points: {
       en: [
         "Built React + TypeScript apps against production-style REST APIs: Book Shop, Food Recipes, Project Management System and User Management System.",
