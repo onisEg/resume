@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<title>Anas Alnagar – CV</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>@page { size: A4; margin: 13mm 0 12mm; }
+@page :first { margin-top: 0; }
+:root { --navy:#0a101e; --ink:#1f2633; --muted:#5b6475; --line:#e3e6ec; --accent:#fec544; --accent-ink:#9a6b00; }
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { font-family: "Inter", "Helvetica Neue", Arial, sans-serif; color: var(--ink); font-size: 9.3pt; line-height: 1.45;
+       -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+a { color: inherit; text-decoration: none; }
+ul { margin: 0; padding: 0; list-style: none; }
+h1, h2, h3, p { margin: 0; }
+
+.hd { background: var(--navy); color: #fff; padding: 15mm 14mm 9mm; position: relative; }
+.hd::after { content: ""; position: absolute; left: 14mm; bottom: 0; width: 26mm; height: 2.2mm; background: var(--accent); }
+.hd h1 { font-size: 27pt; font-weight: 800; letter-spacing: -.3pt; line-height: 1.05; }
+.hd h1 span { color: var(--accent); }
+.hd .role { margin-top: 2.5mm; font-size: 11.5pt; font-weight: 500; color: #d9dde6; }
+
+.cols { display: grid; grid-template-columns: 58mm 1fr; gap: 0 9mm; padding: 8mm 14mm 0; }
+section { margin-bottom: 6mm; }
+h2 { font-size: 8.6pt; font-weight: 700; letter-spacing: 1.4pt; text-transform: uppercase; color: var(--navy);
+     padding-bottom: 1.6mm; margin-bottom: 3mm; border-bottom: 1.4pt solid var(--accent); }
+
+/* sidebar */
+.side { font-size: 8.6pt; }
+.contact li { padding: .9mm 0; word-break: break-word; color: var(--ink); }
+.contact li + li { border-top: .5pt solid var(--line); }
+.sk { margin-bottom: 2.4mm; }
+.sk b { display: block; font-size: 8.3pt; color: var(--navy); }
+.sk span { color: var(--muted); }
+.kv li { display: flex; flex-direction: column; margin-bottom: 2mm; }
+.kv b { font-weight: 600; color: var(--navy); }
+.kv span { color: var(--muted); font-size: 8.2pt; }
+
+/* main */
+.profile { color: var(--ink); }
+.item { margin-bottom: 3.6mm; break-inside: avoid; }
+.ih { display: flex; justify-content: space-between; align-items: baseline; gap: 4mm; }
+.item h3 { font-size: 10pt; font-weight: 700; color: var(--navy); }
+.co { color: var(--accent-ink); font-weight: 500; font-size: 8.8pt; }
+.date { font-size: 8.3pt; color: var(--muted); white-space: nowrap; font-weight: 500; }
+.item ul { margin-top: 1.2mm; }
+.item li { position: relative; padding-left: 3.2mm; margin-bottom: .6mm; }
+.item li::before { content: ""; position: absolute; left: 0; top: 1.9mm; width: 1.3mm; height: 1.3mm; border-radius: 50%; background: var(--accent); }
+.tag { font-size: 7pt; font-weight: 600; color: var(--accent-ink); border: .6pt solid var(--accent); border-radius: 8pt; padding: .2mm 1.6mm; margin-left: 1mm; vertical-align: 1pt; }
+.stack { font-size: 8.2pt; color: var(--muted); margin: .4mm 0 .8mm; }
+.demo { color: var(--accent-ink); font-weight: 500; white-space: nowrap; }
+.note { font-size: 8.3pt; color: var(--muted); font-style: italic; }
+h2, h3 { break-after: avoid; }
+.certs li { flex-direction: row; justify-content: space-between; gap: 4mm; }
+</style></head>
+<body><div class="page">
+<header class="hd"><div><h1>Anas <span>Alnagar</span></h1><p class="role">Desarrollador Frontend · React y TypeScript</p></div></header>
+<div class="cols">
+<aside class="side">
+  <section><h2>Contacto</h2><ul class="contact"><li>Barcelona, España</li><li><a href=tel:+34666281390>+34 666 28 13 90</a></li><li><a href=mailto:anasdesigneruiux@gmail.com>anasdesigneruiux@gmail.com</a></li><li><a href=https://www.anascv.com>anascv.com</a></li><li><a href=https://www.linkedin.com/in/anaseg/>linkedin.com/in/anaseg</a></li><li><a href=https://github.com/onisEg>github.com/onisEg</a></li></ul></section>
+  <section><h2>Habilidades</h2><div class='sk'><b>Frontend</b><span>JavaScript (ES6+), TypeScript, React, Redux Toolkit, Next.js, HTML5, CSS3, Sass</span></div><div class='sk'><b>UI y estilos</b><span>Material UI, Tailwind CSS, Bootstrap, React Bootstrap, diseño responsive</span></div><div class='sk'><b>Librerías</b><span>React Hook Form, Axios, dnd-kit, AG Charts, Stripe</span></div><div class='sk'><b>APIs</b><span>APIs REST, autenticación JWT, rutas protegidas, acceso por roles, Postman, Swagger</span></div><div class='sk'><b>Herramientas</b><span>Git, GitHub, Vite, npm, Vercel</span></div><div class='sk'><b>Diseño</b><span>Figma, UI/UX, wireframes, prototipado, investigación de usuarios, Photoshop</span></div><div class='sk'><b>CMS y e-commerce</b><span>Shopify, PrestaShop, WordPress</span></div></section>
+  <section><h2>Idiomas</h2><ul class="kv"><li><b>Inglés</b><span>B1</span></li><li><b>Español</b><span>A2 · mejorando</span></li><li><b>Árabe</b><span>Nativo</span></li></ul></section>
+</aside>
+<main class="main">
+  <section><h2>Perfil</h2><p class="profile">Desarrollador frontend especializado en React y TypeScript, con experiencia previa en diseño UI/UX. He creado aplicaciones web completas conectadas a APIs REST: autenticación JWT, rutas protegidas, paneles según rol, pantallas CRUD, gráficos, tableros drag-and-drop y pagos con Stripe. Además, personalizo tiendas Shopify y PrestaShop como freelance. Actualmente curso el Curso de Desarrollo Web en IT Academy (Barcelona Activa). Disponible para puestos frontend en Barcelona o en remoto.</p></section>
+  <section><h2>Experiencia</h2><div class='item'><div class='ih'><div><h3>Desarrollador web freelance</h3><p class='co'>Autónomo · Barcelona</p></div><span class='date'>Actualidad</span></div><ul><li>Configuro y personalizo tiendas online en Shopify y PrestaShop para pequeñas empresas.</li><li>Corrijo problemas de frontend y mejoro la velocidad y usabilidad de webs de clientes.</li></ul></div><div class='item'><div class='ih'><div><h3>Desarrollador Frontend</h3><p class='co'>FITS Lab Dev · Remoto</p></div><span class='date'>oct. 2024 – may. 2025</span></div><ul><li>Guié y apoyé a un equipo de desarrolladores para cumplir los objetivos del proyecto.</li><li>Desarrollé funcionalidades frontend para aplicaciones de e-commerce, alquiler de coches y gestión de usuarios.</li></ul></div><div class='item'><div class='ih'><div><h3>Desarrollador Frontend</h3><p class='co'>Upskilling Academy</p></div><span class='date'>may. 2024 – oct. 2024</span></div><ul><li>Desarrollé apps con React + TypeScript conectadas a APIs REST: Book Shop, Food Recipes, Project Management System y User Management System.</li><li>Implementé autenticación JWT, rutas protegidas, validación de formularios y paneles según rol.</li></ul></div><div class='item'><div class='ih'><div><h3>Diseñador UI/UX</h3><p class='co'>Smart Developer for Programming &amp; Design</p></div><span class='date'>feb. 2024 – oct. 2024</span></div><ul><li>Diseñé interfaces para plataformas de servicios públicos y de producto.</li></ul></div><div class='item'><div class='ih'><div><h3>Diseñador UI/UX en prácticas</h3><p class='co'>Route · Remoto</p></div><span class='date'>oct. 2023 – ene. 2024</span></div><ul><li>Realicé investigación de usuarios y la convertí en wireframes, prototipos y mockups de alta fidelidad.</li><li>Diseñé “Chill Away”, una app de viajes para comparar paquetes, ofertas y hoteles.</li></ul></div><div class='item'><div class='ih'><div><h3>Becario en prácticas</h3><p class='co'>Kal-Bunyan Al-Marsous</p></div><span class='date'>abr. 2022 – oct. 2022</span></div><ul><li>Formación frontend centrada en JavaScript y CSS.</li></ul></div><div class='item'><div class='ih'><div><h3>Diseñador y desarrollador</h3><p class='co'>Gorgov Digital Advertising Agency</p></div><span class='date'>jul. 2019 – ago. 2021</span></div><ul><li>Desarrollo web y diseño gráfico (Adobe Photoshop) para clientes de la agencia.</li></ul></div><div class='item'><div class='ih'><div><h3>Desarrollador Frontend</h3><p class='co'>Tech Village Egypt</p></div><span class='date'>ago. 2018 – nov. 2018</span></div><ul><li>Maqueté sitios web con HTML, CSS y Bootstrap.</li></ul></div></section>
+  <section><h2>Proyectos destacados</h2><div class='item'><h3>StayCation · Reservas de hotel <span class='tag'>Proyecto en equipo</span></h3><p class='stack'>React, TypeScript, Material UI, Stripe</p><p class='desc'>Plataforma con dos perfiles: los huéspedes buscan habitaciones, guardan favoritos y pagan con Stripe; los administradores gestionan habitaciones, anuncios, usuarios y reservas desde un panel con gráficos. <a class='demo' href='https://booking-iota-one.vercel.app'>booking-iota-one.vercel.app</a></p></div><div class='item'><h3>Project Management System</h3><p class='stack'>React, TypeScript, dnd-kit, AG Charts</p><p class='desc'>App con roles: los managers crean proyectos y asignan tareas; los empleados las mueven en un tablero drag-and-drop. Autenticación completa, gráficos y modo oscuro. <a class='demo' href='https://project-management-system-y5bw.vercel.app'>project-management-system-y5bw.vercel.app</a></p></div><div class='item'><h3>Book Shop</h3><p class='stack'>React, TypeScript, Redux Toolkit, Stripe</p><p class='desc'>Librería online con catálogo, detalle de libros, carrito con Redux Toolkit y pago con Stripe.</p></div><div class='item'><h3>Food Recipes</h3><p class='stack'>React, React Bootstrap, JWT</p><p class='desc'>Panel de recetas: los administradores gestionan recetas, categorías y usuarios; los usuarios exploran y guardan favoritas.</p></div><p class='note'>Código fuente de todos los proyectos: github.com/onisEg</p></section>
+  <section><h2>Formación</h2><div class='item'><div class='ih'><div><h3>Curso de Desarrollo Web · Frontend React</h3><p class='co'>IT Academy · Barcelona Activa</p></div><span class='date'>abr. 2026 – mar. 2027 · En curso</span></div></div><div class='item'><div class='ih'><div><h3>Sistemas de Información</h3><p class='co'>Abasia Institute</p></div><span class='date'>2011 – 2015</span></div></div></section>
+  <section><h2>Certificados</h2><ul class="kv certs"><li><b>Become a Programmer: Foundations</b><span>LinkedIn Learning · 2022</span></li><li><b>Programming Foundations (13 courses)</b><span>LinkedIn Learning · 2022</span></li><li><b>Essentials of ChatGPT</b><span>Almdrasa</span></li></ul></section>
+</main></div></div></body></html>
