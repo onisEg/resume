@@ -1,8 +1,12 @@
 {
   "headers": [
     {
-      "source": "/cv/(.*).pdf",
-      "headers": [{ "key": "Content-Disposition", "value": "attachment" }]
+      "source": "/cv/Anas_Alnagar_Frontend_Developer_CV_EN.pdf",
+      "headers": [{ "key": "Content-Disposition", "value": "inline; filename=\"Anas_Alnagar_Frontend_Developer_CV_EN.pdf\"" }]
+    },
+    {
+      "source": "/cv/Anas_Alnagar_Desarrollador_Frontend_CV_ES.pdf",
+      "headers": [{ "key": "Content-Disposition", "value": "inline; filename=\"Anas_Alnagar_Desarrollador_Frontend_CV_ES.pdf\"" }]
     }
   ]
 }
