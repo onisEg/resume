@@ -1,6 +1,7 @@
 import { useLang } from "../i18n/LanguageContext";
 import { profile } from "../data/content";
 import SectionTitle from "./SectionTitle";
+import ProjectForm from "./ProjectForm";
 
 export default function Contact() {
   const { t } = useLang();
@@ -19,6 +20,8 @@ export default function Contact() {
     <section id="contact" className="section">
       <div className="container">
         <SectionTitle title={c.title} subtitle={c.text} />
+        <ProjectForm />
+        <h3 className="contact-direct" data-aos="fade-up">{c.orDirect}</h3>
         <div className="row g-3 justify-content-center">
           {items.map((it) => (
             <div key={it.label} className="col-sm-6 col-lg-4" data-aos="fade-up">
