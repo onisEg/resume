@@ -1,10 +1,12 @@
 import { useEffect, useState } from "react";
 import { useLang } from "../i18n/LanguageContext";
+import { useTheme } from "../i18n/ThemeContext";
 
 const LINKS = ["about", "experience", "projects", "skills", "contact"];
 
 export default function Navbar() {
   const { lang, t, toggle } = useLang();
+  const { theme, toggleTheme } = useTheme();
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -44,6 +46,14 @@ export default function Navbar() {
           >
             <span className={lang === "en" ? "active" : ""}>EN</span>
             <span className={lang === "es" ? "active" : ""}>ES</span>
+          </button>
+          <button
+            className="theme-switch"
+            onClick={toggleTheme}
+            aria-label={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
+            title={theme === "dark" ? "Light mode" : "Dark mode"}
+          >
+            <i className={theme === "dark" ? "fa-solid fa-sun" : "fa-solid fa-moon"} />
           </button>
         </nav>
       </div>
