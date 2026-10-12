@@ -8,11 +8,14 @@ import "./styles/portfolio.css";
 
 import App from "./App.jsx";
 import { LanguageProvider } from "./i18n/LanguageContext.jsx";
+import { ThemeProvider } from "./i18n/ThemeContext.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <LanguageProvider>
-      <App />
-    </LanguageProvider>
+    <ThemeProvider>
+      <LanguageProvider>
+        <App />
+      </LanguageProvider>
+    </ThemeProvider>
   </StrictMode>
 );
