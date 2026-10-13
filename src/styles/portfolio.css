@@ -40,6 +40,7 @@
 
 *, *::before, *::after { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: var(--nav-h); }
+html, body { overflow-x: clip; max-width: 100%; }
 body {
   margin: 0;
   background: var(--bg);
@@ -110,6 +111,8 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .nav__toggle.is-open span::after { top: 0; transform: rotate(-45deg); }
 
 @media (max-width: 991px) {
+  .row { margin-left: 0; margin-right: 0; }
+  [class*="col-"] { padding-left: 0; padding-right: 0; }
   .nav { background: rgba(var(--nav-bg), .95); border-color: var(--border); }
   .nav--scrolled { border-bottom: 1px solid var(--border); }
   .nav__toggle { display: block; z-index: 60; }
@@ -348,7 +351,8 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 }
 .form-card h3 { font-size: 1.3rem; margin-bottom: 1.4rem; }
 .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.1rem 1.2rem; }
-.form-field { display: flex; flex-direction: column; gap: .4rem; min-width: 0; }
+.form-field { display: flex; flex-direction: column; gap: .4rem; min-width: 0; max-width: 100%; }
+.form-card input, .form-card select, .form-card textarea { max-width: 100%; }
 .form-field--full { grid-column: 1 / -1; }
 .form-field label, .prefs legend { font-size: .88rem; font-weight: 500; color: var(--heading); }
 .form-field .req { color: var(--accent); }
