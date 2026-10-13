@@ -353,6 +353,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.1rem 1.2rem; }
 .form-field { display: flex; flex-direction: column; gap: .4rem; min-width: 0; max-width: 100%; }
 .form-card input, .form-card select, .form-card textarea { max-width: 100%; }
+.form-card { overflow: hidden; }
 .form-field--full { grid-column: 1 / -1; }
 .form-field label, .prefs legend { font-size: .88rem; font-weight: 500; color: var(--heading); }
 .form-field .req { color: var(--accent); }
@@ -376,10 +377,11 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .prefs legend { margin-bottom: .5rem; padding: 0; }
 .pill { display: inline-flex; align-items: center; cursor: pointer; padding: .45rem 1rem; border-radius: 999px;
   border: 1px solid var(--border); color: var(--heading); font-size: .88rem; transition: .2s; }
-.pill input { position: absolute; opacity: 0; pointer-events: none; }
+.pill { position: relative; }
+.pill input { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; opacity: 0; cursor: pointer; }
 .pill.is-on { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); font-weight: 600; }
 .pill:has(input:focus-visible) { outline: 2px solid var(--accent); outline-offset: 2px; }
-.hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+.hp { position: absolute; left: -9999px; top: 0; width: 1px; height: 1px; opacity: 0; overflow: hidden; }
 .form-msg { margin: 1rem 0 0; font-size: .9rem; }
 .form-msg--warn { color: var(--accent); }
 .form-msg--err { color: var(--danger); }
