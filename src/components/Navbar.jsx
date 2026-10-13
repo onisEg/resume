@@ -17,6 +17,13 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  useEffect(() => {
+    document.body.style.overflow = open ? "hidden" : "";
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [open]);
+
   return (
     <header className={`nav ${scrolled ? "nav--scrolled" : ""}`}>
       <div className="container nav__inner">
@@ -39,23 +46,26 @@ export default function Navbar() {
               {t.nav[id]}
             </a>
           ))}
-          <button
-            className="lang-switch"
-            onClick={toggle}
-            aria-label={lang === "en" ? "Cambiar a español" : "Switch to English"}
-          >
-            <span className={lang === "en" ? "active" : ""}>EN</span>
-            <span className={lang === "es" ? "active" : ""}>ES</span>
-          </button>
-          <button
-            className="theme-switch"
-            onClick={toggleTheme}
-            aria-label={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
-            title={theme === "dark" ? "Light mode" : "Dark mode"}
-          >
-            <i className={theme === "dark" ? "fa-solid fa-sun" : "fa-solid fa-moon"} />
-          </button>
+          <div className="nav__controls">
+            <button
+              className="lang-switch"
+              onClick={toggle}
+              aria-label={lang === "en" ? "Cambiar a español" : "Switch to English"}
+            >
+              <span className={lang === "en" ? "active" : ""}>EN</span>
+              <span className={lang === "es" ? "active" : ""}>ES</span>
+            </button>
+            <button
+              className="theme-switch"
+              onClick={toggleTheme}
+              aria-label={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
+              title={theme === "dark" ? "Light mode" : "Dark mode"}
+            >
+              <i className={theme === "dark" ? "fa-solid fa-sun" : "fa-solid fa-moon"} />
+            </button>
+          </div>
         </nav>
+        {open && <button className="nav__backdrop" aria-label="Close menu" onClick={() => setOpen(false)} />}
       </div>
     </header>
   );
