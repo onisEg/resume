@@ -356,17 +356,6 @@ export const certifications = [
 // ---------------------------------------------------------------------------
 export const featuredProjects = [
   {
-    title: "SceneShelf",
-    img: "/projects/sceneshelf.webp",
-    demo: "https://movi-etime.vercel.app/",
-    code: "https://github.com/onisEg/MOVIEtime",
-    stack: ["React", "React Router", "Bootstrap", "TMDB API"],
-    text: {
-      en: "Discover the trending film of the week, browse movies and TV shows, and explore popular actors using data from TMDB.",
-      es: "Descubre la película destacada de la semana, explora el catálogo de cine y series y conoce a los actores más populares con datos de TMDB.",
-    },
-  },
-  {
     title: "StayCation · Hotel Booking",
     img: "/projects/hotel-booking.webp",
     demo: "https://booking-iota-one.vercel.app/",
@@ -425,6 +414,7 @@ export const featuredProjects = [
 ];
 
 export const earlierProjects = [
+  { title: "SceneShelf", img: "/projects/sceneshelf.webp", demo: "https://movi-etime.vercel.app/", code: "https://github.com/onisEg/MOVIEtime", stack: "React · React Router · Bootstrap · TMDB API" },
   { title: "RentCars", img: "/projects/rent-cars.webp", demo: "https://cars-mocha-phi.vercel.app/", code: "https://github.com/onisEg/cars", stack: "React" },
   { title: "Contacts", img: "/projects/contacts.webp", demo: "https://contacts-indol.vercel.app/", code: "https://github.com/onisEg/contacts", stack: "React" },
   { title: "eCommerce", img: "/projects/ecommerce.webp", demo: "https://oniseg.github.io/eCommerce/", code: "https://github.com/onisEg/eCommerce", stack: "HTML · CSS · JS" },
