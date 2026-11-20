@@ -356,6 +356,17 @@ export const certifications = [
 // ---------------------------------------------------------------------------
 export const featuredProjects = [
   {
+    title: "SceneShelf",
+    img: "/projects/sceneshelf.webp",
+    demo: "https://movi-etime.vercel.app/",
+    code: "https://github.com/onisEg/MOVIEtime",
+    stack: ["React", "React Router", "Bootstrap", "TMDB API"],
+    text: {
+      en: "Discover the trending film of the week, browse movies and TV shows, and explore popular actors using data from TMDB.",
+      es: "Descubre la película destacada de la semana, explora el catálogo de cine y series y conoce a los actores más populares con datos de TMDB.",
+    },
+  },
+  {
     title: "StayCation · Hotel Booking",
     img: "/projects/hotel-booking.webp",
     demo: "https://booking-iota-one.vercel.app/",
